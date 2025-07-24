@@ -140,10 +140,12 @@ body.scrolled .primary-navigation {
   padding-left: 10px;
   border-left: 2px solid transparent;
   transition: border-color 0.3s ease;
+  color: #A3050B !important;
 }
 
 .menu li ul li a:hover {
   border-left-color: #3ca0e7;
+  color: #A3050B; /* stay maroon on hover */
 }
 
 .menu li:last-child ul {
