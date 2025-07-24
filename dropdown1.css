@@ -124,6 +124,7 @@ body.scrolled .primary-navigation {
   z-index: 1000;
   width: 220px; /* Set to match or slightly exceed max expected content width */
   box-sizing: border-box;
+  white-space: nowrap;
   
 }
 
