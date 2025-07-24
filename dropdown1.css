@@ -119,14 +119,11 @@ body.scrolled .primary-navigation {
   left: 0;
   background: #FFD342;
   padding: 10px 15px;
-  min-width: 200px;
   border-radius: 20px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  
-  transform: translateZ(0);
-  backface-visibility: hidden;
-  will-change: transform, opacity;
+  width: 220px; /* Set to match or slightly exceed max expected content width */
+  box-sizing: border-box;
   
 }
 
@@ -139,14 +136,13 @@ body.scrolled .primary-navigation {
 }
 
 .menu li ul li a {
-  display: block;
-  color: #A3050B;
+  padding-left: 10px;
+  border-left: 2px solid transparent;
+  transition: border-color 0.3s ease;
 }
 
 .menu li ul li a:hover {
-  padding-left: 10px;
-  border-left: 2px solid #3ca0e7;
-  transition: all 0.3s ease;
+  border-left-color: #3ca0e7;
 }
 
 .menu li:last-child ul {
