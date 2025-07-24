@@ -145,7 +145,7 @@ body.scrolled .primary-navigation {
 
 .menu li ul li a:hover {
   border-left-color: #3ca0e7;
-  color: #A3050B; /* stay maroon on hover */
+  color: #A3050B !important; /* stay maroon on hover */
 }
 
 .menu li:last-child ul {
