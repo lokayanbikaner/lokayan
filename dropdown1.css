@@ -148,7 +148,7 @@ body.scrolled .primary-navigation {
 .menu li:last-child ul {
   right: 0;
   left: auto;
-  transform: translateZ(0);
+  width: 220px; /* match all others */
 }
 
 @media (min-width: 769px) {
