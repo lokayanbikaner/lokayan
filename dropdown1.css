@@ -385,3 +385,17 @@ ul.menu li ul {
   cursor: pointer;
 }
 
+.brochure {
+    max-width: 45em;     /* keeps it from being too wide */
+    margin: 2em auto;    /* center with spacing */
+    text-align: center;
+  }
+
+  .brochure img {
+    width: 100%;         /* responsive */
+    height: auto;        /* keep aspect ratio */
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; /* optional styling */
+  }
+
