@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Tiro+Devanagari+Hindi&display=swap);
 
 
-/* Reset & Base */
+
 * {
   margin: 0;
   padding: 0;
@@ -35,7 +35,7 @@ input[type="checkbox"] {
   white-space: nowrap;
 }
 
-/* Navigation Styles */
+
 .primary-navigation {
   position: fixed;
   top: 0;
@@ -68,7 +68,7 @@ body.scrolled .primary-navigation {
 }
 
 .home-logo {
-  height: 50px; /* Adjust as needed */
+  height: 50px; 
   width: auto;
 }
 
@@ -122,7 +122,7 @@ body.scrolled .primary-navigation {
   border-radius: 20px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   z-index: 1000;
-  width: 260px; /* Set to match or slightly exceed max expected content width */
+  width: 260px; 
   box-sizing: border-box;
   white-space: nowrap;
   
@@ -137,7 +137,7 @@ body.scrolled .primary-navigation {
 }
 
 .menu li ul li a {
-  padding: 8px 30px 8px 12px; /* top, right, bottom, left */
+  padding: 8px 30px 8px 12px; 
   display: block;
   border-left: 2px solid transparent;
   transition: border-color 0.3s ease;
@@ -146,13 +146,13 @@ body.scrolled .primary-navigation {
 
 .menu li ul li a:hover {
   border-left-color: #3ca0e7;
-  color: #A3050B !important; /* stay maroon on hover */
+  color: #A3050B !important; 
 }
 
 .menu li:last-child ul {
   right: 0;
   left: auto;
-  width: 260px; /* match all others */
+  width: 260px; 
 }
 
 @media (min-width: 769px) {
@@ -168,7 +168,7 @@ body.scrolled .primary-navigation {
     height: 70px;
   }
   .menu li:last-child {
-    margin-right: 80px; /* Adjust as needed */
+    margin-right: 80px; 
   }
 }
 
@@ -267,15 +267,15 @@ ul.menu li ul {
   }
 
   .menu li:hover > ul {
-    display: none; /* prevent hover behavior on touch devices */
+    display: none; 
   }
   
     .home-link {
-    margin-left: 2rem; /* or use 10px, 8px, etc. */
+    margin-left: 2rem; 
   }
   
    .menu li ul li a {
-    font-weight: 800; /* Slightly lighter submenu links */
+    font-weight: 800; 
   }
     .content {
     text-align: justify;
@@ -288,26 +288,26 @@ ul.menu li ul {
 
 
 
-/* Content Padding */
+
 .content {
   background: #fcf8f2;
   padding: 1.5rem;
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 120px; /* enough space for fixed nav */
+  padding-top: 120px;
   padding-bottom: 80px;
 }
 
 @media (min-width: 769px) {
   .content {
 	background: #fcf8f2;
-    padding-top: 120px; /* more space for nav */
+    padding-top: 120px;
     padding-left: 4rem;
     padding-right: 4rem;
     padding-bottom: 100px;
     
-    font-size: 1.4rem;         /* Adjust as needed */
-	line-height: 1.7;         /* Improves readability */
+    font-size: 1.4rem;         
+	line-height: 1.7;         
     text-align: justify;
   }
 }
@@ -325,7 +325,7 @@ ul.menu li ul {
   height: 200px;
   object-fit: cover;
   display: block;
-  aspect-ratio: auto; /* Ensures no stretching */
+  aspect-ratio: auto; 
   border-radius: 8px;
   cursor: pointer;
 }
@@ -386,16 +386,16 @@ ul.menu li ul {
 }
 
 .brochure {
-    max-width: 45em;     /* keeps it from being too wide */
-    margin: 2em auto;    /* center with spacing */
+    max-width: 45em;     
+    margin: 2em auto;   
     text-align: center;
   }
 
   .brochure img {
-    width: 100%;         /* responsive */
-    height: auto;        /* keep aspect ratio */
+    width: 100%;        
+    height: auto;        
     display: block;
     margin: 0 auto;
-    border-radius: 10px; /* optional styling */
+    border-radius: 10px; 
   }
 
