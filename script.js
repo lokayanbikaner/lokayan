@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
     lightbox.style.display = "flex";
   }
 
-  // Select all galleries
+  
   const galleries = document.querySelectorAll(".myGallery");
 
-  // Add click listeners to images in each gallery
+
   galleries.forEach(gallery => {
     const galleryImages = gallery.querySelectorAll(".lightbox-img");
 
@@ -33,12 +33,12 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Close lightbox
+ 
   closeBtn.addEventListener("click", () => {
     lightbox.style.display = "none";
   });
 
-  // Navigate next/prev within current gallery
+
   nextBtn.addEventListener("click", () => {
     currentIndex = (currentIndex + 1) % currentGalleryImages.length;
     showImage(currentIndex);
@@ -49,14 +49,14 @@ document.addEventListener("DOMContentLoaded", function () {
     showImage(currentIndex);
   });
 
-  // Click outside image to close
+  
   lightbox.addEventListener("click", (e) => {
     if (e.target === lightbox) {
       lightbox.style.display = "none";
     }
   });
 
-  // Touch swipe support
+  
   let touchStartX = 0;
   let touchEndX = 0;
 
